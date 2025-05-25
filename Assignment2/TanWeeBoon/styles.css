@@ -1,0 +1,44 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #93d0f4;
+    color: white; 
+    padding: 10px 10px; 
+    text-align: center; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    padding:10px;
+    border-color: #ddd;
+    border:1px;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td  {
+    padding:10px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+ul {
+    padding-bottom: 30px; /* Remove padding */
+}
+a:link{
+    color: #0079c1;
+    text-decoration: none;
+}
+/* Add in your own customisations */
