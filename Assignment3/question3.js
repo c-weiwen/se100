@@ -6,3 +6,7 @@ const disneyData = {
 };
 
 // Write your code below
+//output: -2.57
+
+const result = (Number.parseFloat(disneyData.open) - Number.parseFloat(disneyData.high) + Number.parseFloat(disneyData.low) - Number.parseFloat(disneyData.close)).toFixed(2);
+console.log(result);
